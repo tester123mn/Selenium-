@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="advanceSelenium.DWS_TC_010PopularTags">
+        <methods>
+          <include name="popularTags"/>
+          <include name="toLogout"/>
+          <include name="toLogin"/>
+          <include name="toClose"/>
+          <include name="toLaunch"/>
+        </methods>
+      </class> <!-- advanceSelenium.DWS_TC_010PopularTags -->
+      <class name="advanceSelenium.DWS_TC_008Order">
+        <methods>
+          <include name="toLogout"/>
+          <include name="toLogin"/>
+          <include name="order"/>
+          <include name="toClose"/>
+          <include name="toLaunch"/>
+        </methods>
+      </class> <!-- advanceSelenium.DWS_TC_008Order -->
+      <class name="advanceSelenium.DWS_TC_011ContactUs">
+        <methods>
+          <include name="contactUs"/>
+          <include name="toLogout"/>
+          <include name="toLogin"/>
+          <include name="toClose"/>
+          <include name="toLaunch"/>
+        </methods>
+      </class> <!-- advanceSelenium.DWS_TC_011ContactUs -->
+      <class name="advanceSelenium.DWS_TC_002ComputerAccessories">
+        <methods>
+          <include name="toLogout"/>
+          <include name="toCheckBookPage"/>
+          <include name="toLogin"/>
+          <include name="toClose"/>
+          <include name="toLaunch"/>
+        </methods>
+      </class> <!-- advanceSelenium.DWS_TC_002ComputerAccessories -->
+      <class name="advanceSelenium.DWS_TC_007FollowUs">
+        <methods>
+          <include name="toCheckBookPage"/>
+          <include name="toLogout"/>
+          <include name="toLogin"/>
+          <include name="toClose"/>
+          <include name="toLaunch"/>
+        </methods>
+      </class> <!-- advanceSelenium.DWS_TC_007FollowUs -->
+      <class name="advanceSelenium.DWS_TC_012AddAddress">
+        <methods>
+          <include name="toLogout"/>
+          <include name="addAddress"/>
+          <include name="toLogin"/>
+          <include name="toClose"/>
+          <include name="toLaunch"/>
+        </methods>
+      </class> <!-- advanceSelenium.DWS_TC_012AddAddress -->
+      <class name="advanceSelenium.DWS_TC_004SearchProduct">
+        <methods>
+          <include name="toLogout"/>
+          <include name="toLogin"/>
+          <include name="toCheckBookPage"/>
+          <include name="toClose"/>
+          <include name="toLaunch"/>
+        </methods>
+      </class> <!-- advanceSelenium.DWS_TC_004SearchProduct -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="bikes.ToLaunchHarly"/>
+      <class name="bikes.ToLaunchAccess"/>
+      <class name="bikes.ToLaunchKTM"/>
+      <class name="bikes.ToLaunchRoyalEnfield"/>
+      <class name="bikes.ToLaunchYamaha"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

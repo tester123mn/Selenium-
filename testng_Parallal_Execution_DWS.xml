@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test" parallel="classes">
+    <classes>
+      <class name="advanceSelenium.DWS_TC_006Myaccount"/>
+      <class name="advanceSelenium.DWS_TC_003Subscribe"/>
+      <class name="advanceSelenium.DWS_TC_001Book"/>
+      <class name="advanceSelenium.DWS_TC_014SendMailToFraind"/>
+      <class name="advanceSelenium.DWS_TC_015ClickOnTricentis"/>
+      <class name="advanceSelenium.DWS_TC_008Order"/>
+      <class name="advanceSelenium.DWS_TC_004SearchProduct"/>
+      <class name="advanceSelenium.DWS_TC_010PopularTags"/>
+      <class name="advanceSelenium.DWS_TC_011ContactUs"/>
+      <class name="advanceSelenium.DWS_TC_002ComputerAccessories"/>
+      <class name="advanceSelenium.DWS_TC_013AddToCompair"/>
+      <class name="advanceSelenium.DWS_TC_009ElectronicsDropdown"/>
+      <class name="advanceSelenium.DWS_TC_012AddAddress"/>
+      <class name="advanceSelenium.DWS_TC_005AddProductToCart"/>
+      <class name="advanceSelenium.DWS_TC_007FollowUs"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

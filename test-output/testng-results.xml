@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Browser got launched successfully]]>
+    </line>
+    <line>
+      <![CDATA[Browser got maximized]]>
+    </line>
+    <line>
+      <![CDATA[Navigated Successfully to Demo Web Shop]]>
+    </line>
+    <line>
+      <![CDATA[Loggie In Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Navigated Successfully to Books Page]]>
+    </line>
+    <line>
+      <![CDATA[Logged out successfully]]>
+    </line>
+    <line>
+      <![CDATA[Browser got closed successfully]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2024-09-26T11:29:00 IST" name="Default suite" finished-at="2024-09-26T11:29:32 IST" duration-ms="31489">
+    <groups>
+      <group name="smoke">
+        <method signature="DWS_TC_001Book.toCheckBookPage()[pri:0, instance:advanceSelenium.DWS_TC_001Book@7e7be63f]" name="toCheckBookPage" class="advanceSelenium.DWS_TC_001Book"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2024-09-26T11:29:00 IST" name="Default test" finished-at="2024-09-26T11:29:32 IST" duration-ms="31489">
+      <class name="advanceSelenium.DWS_TC_001Book">
+        <test-method is-config="true" signature="toLaunch(java.lang.String)[pri:0, instance:advanceSelenium.DWS_TC_001Book@7e7be63f]" started-at="2024-09-26T11:29:00 IST" name="toLaunch" finished-at="2024-09-26T11:29:15 IST" duration-ms="14773" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Browser got launched successfully]]>
+            </line>
+            <line>
+              <![CDATA[Browser got maximized]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- toLaunch -->
+        <test-method is-config="true" signature="toLogin()[pri:0, instance:advanceSelenium.DWS_TC_001Book@7e7be63f]" started-at="2024-09-26T11:29:15 IST" name="toLogin" finished-at="2024-09-26T11:29:28 IST" duration-ms="12820" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Navigated Successfully to Demo Web Shop]]>
+            </line>
+            <line>
+              <![CDATA[Loggie In Successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- toLogin -->
+        <test-method signature="toCheckBookPage()[pri:0, instance:advanceSelenium.DWS_TC_001Book@7e7be63f]" started-at="2024-09-26T11:29:28 IST" name="toCheckBookPage" finished-at="2024-09-26T11:29:29 IST" duration-ms="1472" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Navigated Successfully to Books Page]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- toCheckBookPage -->
+        <test-method is-config="true" signature="toLogout()[pri:0, instance:advanceSelenium.DWS_TC_001Book@7e7be63f]" started-at="2024-09-26T11:29:29 IST" name="toLogout" finished-at="2024-09-26T11:29:30 IST" duration-ms="934" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Logged out successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- toLogout -->
+        <test-method is-config="true" signature="toClose()[pri:0, instance:advanceSelenium.DWS_TC_001Book@7e7be63f]" started-at="2024-09-26T11:29:30 IST" name="toClose" finished-at="2024-09-26T11:29:32 IST" duration-ms="1370" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser got closed successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- toClose -->
+      </class> <!-- advanceSelenium.DWS_TC_001Book -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
