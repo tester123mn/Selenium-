@@ -54,7 +54,7 @@ public class BaseClass {
 		driver.findElement(By.id("Email")).sendKeys("seleniumA2@gmail.com");
 		driver.findElement(By.id("Password")).sendKeys("selenium@123");
 		driver.findElement(By.xpath("//input[@value='Log in']")).click();
-		Reporter.log("Loggie In Successfully", true);
+		Reporter.log("Logged In Successfully", true);
 	}
 
 	@AfterMethod(groups = { "system", "integration", "smoke" })
